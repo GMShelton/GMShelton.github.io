@@ -9,17 +9,15 @@
 
         <style>
             .box {display: flex;}
-            model-viewer {width:900px; height:600px; margin:0 ,auto;}
+            model-viewer {
+                    width:900px; 
+                    height:600px; 
+                    margin:0 ,auto;
+            }
         </style>
 </head>
 
 <body>
-    <div class="box">
-        <div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat, fuga tempora neque quaerat quibusdam obcaecati fugiat commodi distinctio sed rerum necessitatibus doloremque esse? Sequi quia distinctio corrupti quam odio?
-        <div>
-            <model-viewer src="Hamburger.glb" camera-controls></model-viewer>
-        </div>
-        </div>
-    </div>
+            <model-viewer src="Hamburger.glb" camera-controls auto-rotate></model-viewer>
 </body>
 </html>
